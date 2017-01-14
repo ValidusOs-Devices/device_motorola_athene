@@ -164,6 +164,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
 
+# Enable real time lockscreen charging current values
++BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
