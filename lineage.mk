@@ -27,6 +27,9 @@ TARGET_BOOTANIMATION_HALF_RES := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rom.device=cm14g4oms
 
+#Superuser
+WITH_SU := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := athene
 PRODUCT_NAME := lineage_athene
