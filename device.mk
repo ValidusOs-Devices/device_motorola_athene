@@ -229,6 +229,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshim_wvm
 
+# Snapdragon apps
+PRODUCT_PACKAGES += \
+    SnapdragonGallery \
+    SnapdragonMusic
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-athene.conf:system/etc/thermal-engine-athene.conf
