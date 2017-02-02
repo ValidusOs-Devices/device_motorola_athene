@@ -113,10 +113,6 @@ PRODUCT_PACKAGES += \
     libbson \
     Snap
 
-# CMActions
-PRODUCT_PACKAGES += \
-    CMActions
-
 # Display
 PRODUCT_PACKAGES += \
     gralloc.msm8952 \
@@ -150,6 +146,10 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     lights.msm8952
+
+# MotoActions
+PRODUCT_PACKAGES += \
+    MotoActions
 
 # OEM
 PRODUCT_COPY_FILES += \
