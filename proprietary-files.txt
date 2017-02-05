@@ -598,6 +598,7 @@ vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so
 -priv-app/CNEService/CNEService.apk
 etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml
+etc/permissions/cneapiclient.xml
 etc/cne/wqeclient/ATT/ATT_profile1.xml
 etc/cne/wqeclient/ATT/ATT_profile2.xml
 etc/cne/wqeclient/ATT/ATT_profile3.xml
@@ -629,8 +630,8 @@ vendor/lib/libmm-qdcm.so
 vendor/lib/libsd_sdk_display.so
 
 # DM/Sprint
--app/DMConfigUpdate/DMConfigUpdate.apk
--app/HiddenMenu/HiddenMenu.apk
+-app/DMConfigUpdateLight/DMConfigUpdateLight.apk
+-app/HiddenMenuLight/HiddenMenuLight.apk
 etc/permissions/com.android.omadm.service.xml
 etc/sysconfig/whitelist_com.android.omadm.service.xml
 lib/libdmengine.so
@@ -642,7 +643,6 @@ lib/libdmjavaplugin.so
 lib/libdmengine.so:priv-app/DMService/lib/arm/libdmengine.so
 lib/libdmjavaplugin.so:priv-app/DMService/lib/arm/libdmjavaplugin.so
 -priv-app/DiagMon/DiagMon.apk
--priv-app/GCS/GCS.apk:priv-app/GCS/GCS.apk:PRESIGNED
 -priv-app/LifetimeData/LifetimeData.apk
 -priv-app/SprintDM/SprintDM.apk
 
