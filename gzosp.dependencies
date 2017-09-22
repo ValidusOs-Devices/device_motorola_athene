@@ -1,8 +1,14 @@
 [
   {
-    "repository":  "android_kernel_motorola_msm8952",
-    "target_path": "kernel/motorola/msm8952"
+    "repository":  "boulzordev/android_kernel_motorola_msm8952",
+    "target_path": "kernel/motorola/msm8952",
+    "branch": "lineage-15.0"
   },
+  {
+    "repository":   "boulzordev/proprietary_vendor_motorola_athene",
+    "target_path":  "vendor/motorola/athene",
+    "branch": "lineage-15.0"
+  }
   {
     "repository": "android_external_bson",
     "target_path": "external/bson"
