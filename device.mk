@@ -114,7 +114,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8952 \
+    libshims_camera \
     libbson \
     Snap \
     camera.device@3.2-impl \
