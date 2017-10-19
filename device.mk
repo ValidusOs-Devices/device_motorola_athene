@@ -125,8 +125,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_treble=true
  
 # CMActions
-#PRODUCT_PACKAGES += \
- #   CMActions
+PRODUCT_PACKAGES += \
+    CMActions
 
 # Display
 PRODUCT_PACKAGES += \
