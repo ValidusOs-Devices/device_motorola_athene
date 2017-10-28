@@ -6,7 +6,7 @@
   },
   {
     "repository":   "boulzordev/proprietary_vendor_motorola_athene",
-    "target_path":  "vendor/motorola/athene",
+    "target_path":  "vendor/motorola",
     "branch": "lineage-15.0"
   },
   {
