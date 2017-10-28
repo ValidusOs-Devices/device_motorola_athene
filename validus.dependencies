@@ -10,15 +10,18 @@
     "branch": "lineage-15.0"
   },
   {
-    "repository": "android_external_bson",
-    "target_path": "external/bson"
+    "repository": "LineageOs/android_external_bson",
+    "target_path": "external/bson",
+    "branch": "lineage-15.0"
   },
   {
-    "repository": "android_external_stlport",
-    "target_path": "external/stlport"
+    "repository": "LineageOs/android_external_stlport",
+    "target_path": "external/stlport",
+    "branch": "lineage-15.0"
   },
   {
-    "repository": "android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings"
+    "repository": "LineageOs/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-15.0"
   }
 ]
