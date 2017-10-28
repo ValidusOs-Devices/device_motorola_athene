@@ -10,11 +10,6 @@
     "branch": "lineage-15.0"
   },
   {
-    "repository": "LineageOs/android_external_bson",
-    "target_path": "external/bson",
-    "branch": "lineage-15.0"
-  },
-  {
     "repository": "LineageOs/android_external_stlport",
     "target_path": "external/stlport",
     "branch": "lineage-15.0"
