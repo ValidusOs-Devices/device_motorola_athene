@@ -381,4 +381,6 @@
     <!-- Enable lockscreen blur feature -->
     <!--bool name="config_uiBlurEnabled">false</bool-->
 
+    <!-- doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
 </resources>
