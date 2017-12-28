@@ -18,11 +18,7 @@ LOCAL_PATH := device/motorola/athene
 
 BOARD_VENDOR := motorola-qcom
 
-# AIDs and CAPS
-TARGET_ALLOW_LEGACY_AIDS := true
-TARGET_FS_CONFIG_GEN := \
-    $(LOCAL_PATH)/fs_config/mot_aids.txt \
-    $(LOCAL_PATH)/fs_config/file_caps.txt
+TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := athene,athene_f,xt1621,xt1622,xt1625,xt1626,xt1640,xt1641,xt1642,xt1643,xt1644
